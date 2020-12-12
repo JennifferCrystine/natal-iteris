@@ -28,7 +28,7 @@
           </v-list-item>
           </router-link>
 
-          <router-link to="cartas">
+          <router-link to="letter">
           <v-list-item>
             <v-list-item-icon>
               <v-icon><mdi-email-letter></mdi-email-letter></v-icon>
