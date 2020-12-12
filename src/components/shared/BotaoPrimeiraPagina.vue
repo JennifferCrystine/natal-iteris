@@ -1,24 +1,16 @@
 <template>
-    <div class="text-center">
-        
-            <v-btn
-              class="success"
-              x-large
-              dark
-
-          
-              
-            >
-            
-              <v-icon>mdi-pine-tree</v-icon> <span >Doe aqui</span>
-            </v-btn>
-    
+    <div>
+    <v-btn class="signin mt-2" rounded color="purple accent-1">
+        <v-icon>mdi-pine-tree</v-icon> <span class="">Doe aqui</span>
+    </v-btn>
     </div>
 </template>
+      
+
 
 <script>
 export default {
-    name: 'BotaoPrimeiraPagina'
+    name: 'BotaoPrimeiraPagina',
 }
 </script>
 <style scoped>
