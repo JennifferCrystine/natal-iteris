@@ -5,7 +5,11 @@
         <p class="conteudo text-body"> {{ carta.description }} </p> <br>
         <img width="100%" widclass="desenho" :src="carta.photo" alt="criança"/>  <br>
         <span class="text-caption">Nome: {{ carta.name }}</span>  <br>
-        <span class="text-caption">Endereço: {{ carta.address }}</span>
+        <span class="text-caption">Endereço: {{ carta.address }}</span> <br>
+
+          <v-btn rounded to ="/letter" color="green darken-4">
+          <v-icon>mdi-pine-tree</v-icon> <span class="">Doe esse brinquedo</span>
+          </v-btn>  <br><br>
     </div>
   </v-container>
 </template>

@@ -31,7 +31,7 @@
           <router-link to="/letter">
           <v-list-item>
             <v-list-item-icon>
-              <v-icon><mdi-email-letter></mdi-email-letter></v-icon>
+              <v-icon>mdi-email-newsletter</v-icon>
             </v-list-item-icon>
             <v-list-item-title class="first">Cartinhas</v-list-item-title>
           </v-list-item>
