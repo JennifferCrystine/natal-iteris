@@ -1,17 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Letter from '../views/Letter.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: Home
+  },
+  {
+    path: 'cartas',
+    name: 'Letter',
+    component: Letter
   }
-]
-
+];
 const router = new VueRouter({
   routes
 })
