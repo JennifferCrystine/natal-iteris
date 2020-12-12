@@ -3,7 +3,7 @@
     <h1 class="text-h4 mb-5 mt-2">Cartas 💌🎅</h1>
     <div class="" v-for="(carta, index) of cartas" :key="index">      
         <p class="conteudo text-body"> {{ carta.description }} </p> <br>
-        <img class="desenho" :src="carta.photo" alt="criança"/>  <br>
+        <img width="100%" widclass="desenho" :src="carta.photo" alt="criança"/>  <br>
         <span class="text-caption">Nome: {{ carta.name }}</span>  <br>
         <span class="text-caption">Endereço: {{ carta.address }}</span>
     </div>
@@ -29,7 +29,4 @@ export default {
 </script>
 
 <style scoped>
-    .conteudo {
-
-    }
 </style>
