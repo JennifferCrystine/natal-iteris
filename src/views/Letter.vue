@@ -2,8 +2,8 @@
   <v-container class="d-flex flex-column justify-space-between">
     <div class="" v-for="(carta, index) of cartas" :key="index">      
         <p> {{ carta.description }} </p>
-        <img :src="carta.photo" alt="criança" />
-        <span>Nome: {{ carta.name }}</span>
+        <img class="desenho" :src="carta.photo" alt="criança"/>
+        <span class="text-caption">Nome: {{ carta.name }}</span>
         <span>Endereço: {{ carta.address }}</span>
     </div>
   </v-container>
