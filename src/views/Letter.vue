@@ -7,9 +7,15 @@
         <span class="text-caption">Nome: {{ carta.name }}</span>  <br>
         <span class="text-caption">Endereço: {{ carta.address }}</span> <br>
 
-          <v-btn rounded to ="/letter" color="green darken-4">
+        <v-row
+          align="center"
+          justify="space-around"
+          
+        >
+          <v-btn class="white--text" rounded to ="/letter" color="green darken-4">
           <v-icon>mdi-pine-tree</v-icon> <span class="">Doe esse brinquedo</span>
-          </v-btn>  <br><br>
+          </v-btn> 
+          </v-row> <br><br>
     </div>
   </v-container>
 </template>
