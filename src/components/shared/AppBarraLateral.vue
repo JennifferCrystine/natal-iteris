@@ -19,7 +19,7 @@
           v-model="group"
           active-class="red darken-4">
 
-          <router-link to="/home">
+          <router-link to="/">
           <v-list-item class="1">
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
@@ -28,7 +28,7 @@
           </v-list-item>
           </router-link>
 
-          <router-link to="cartas">
+          <router-link to="/letter">
           <v-list-item>
             <v-list-item-icon>
               <v-icon><mdi-email-letter></mdi-email-letter></v-icon>
