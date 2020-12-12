@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <AppBarraLateral/>
+    <AppRodaPe/>
   <v-main>
       <router-view/>
   </v-main>
@@ -8,12 +9,13 @@
 </template>
 
 <script>
-
+import AppRodaPe from './components/shared/AppRodaPe'
 import AppBarraLateral from './components/shared/AppBarraLateral'
 export default {
     name:'App',
     components: {
       AppBarraLateral,
+      AppRodaPe
     }
 }
 </script>
