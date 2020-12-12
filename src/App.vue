@@ -1,13 +1,21 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/"></router-link> |
-
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <AppBarraLateral/>
+  <v-main>
+      <router-view/>
+  </v-main>
+  </v-app>
 </template>
 
-<style lang="scss">
+<script>
 
-</style>
+import AppBarraLateral from './components/shared/AppBarraLateral'
+
+export default {
+    name:'App',
+    components: {
+      AppBarraLateral
+    }
+}
+</script>
+
