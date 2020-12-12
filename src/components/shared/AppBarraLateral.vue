@@ -1,9 +1,9 @@
 <template>
-  <v-div>
+  <v-div class="app-top-bar">
     <v-app-bar color="red darken-4" dark app>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Be zen</v-toolbar-title>
+      <v-toolbar-title>Natal Solidário</v-toolbar-title>
     </v-app-bar>
 
     <v-navigation-drawer
@@ -20,11 +20,11 @@
           active-class="red darken-4">
 
           <router-link to="/">
-          <v-list-item class="1">
+          <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Incio</v-list-item-title>
+            <v-list-item-title  class="first">Início</v-list-item-title>
           </v-list-item>
           </router-link>
 
@@ -33,7 +33,7 @@
             <v-list-item-icon>
               <v-icon><mdi-email-letter></mdi-email-letter></v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Cartinhas</v-list-item-title>
+            <v-list-item-title class="first">Cartinhas</v-list-item-title>
           </v-list-item>
           </router-link>
 
@@ -52,3 +52,9 @@
     }),
 };
 </script>
+
+<style scoped>
+  .app-top-bar a {
+    text-decoration: none;        
+  }
+</style>

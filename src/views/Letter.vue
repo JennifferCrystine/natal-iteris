@@ -1,10 +1,11 @@
 <template>
-  <v-container class="d-flex flex-column justify-space-between">
+  <v-container class="d-flex flex-column justify-space-between align-center">
+    <h1 class="text-h4 mb-5 mt-2">Cartas 💌🎅</h1>
     <div class="" v-for="(carta, index) of cartas" :key="index">      
-        <p> {{ carta.description }} </p>
-        <img class="desenho" :src="carta.photo" alt="criança"/>
-        <span class="text-caption">Nome: {{ carta.name }}</span>
-        <span>Endereço: {{ carta.address }}</span>
+        <p class="conteudo text-body"> {{ carta.description }} </p> <br>
+        <img class="desenho" :src="carta.photo" alt="criança"/>  <br>
+        <span class="text-caption">Nome: {{ carta.name }}</span>  <br>
+        <span class="text-caption">Endereço: {{ carta.address }}</span>
     </div>
   </v-container>
 </template>
@@ -26,3 +27,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+    .conteudo {
+
+    }
+</style>
