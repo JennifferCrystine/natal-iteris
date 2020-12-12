@@ -1,7 +1,14 @@
 <template>
   <v-container class="home d-flex flex-column align-center fill-height mt-5">
   
-    <h1 class="text-h4 text-center">Natal Solidário</h1>
+    <h1 class="text-h4 text-center">Natal Solidário    
+      <v-avatar>
+        <img
+          src="@/assets/papainoel.png"
+          alt="Papai Noel"
+        >
+      </v-avatar></h1>     
+
     <div class="texto-imagem d-flex flex-column align-center justify-space-between">
       <p class="text-justify mt-5">
         O natal este ano será diferenciado.
@@ -22,7 +29,7 @@
 
     </div>
 
-    <v-btn class="signin mt-2" x-large rounded to ="/letter" color="green darken-4">
+    <v-btn class="signin mt-15" x-large rounded to ="/letter" color="green darken-4">
         <v-icon>mdi-pine-tree</v-icon> <span class="">Doe aqui</span>
     </v-btn>
   </v-container>
